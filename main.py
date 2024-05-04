@@ -67,7 +67,7 @@ def nytimes():
         if counter == 15:
             break
 
-    return render_template("sportsnews.html", titles=titles, urls=urls)
+    return render_template("nytimes.html", titles=titles, urls=urls)
 
 if __name__ == "__main__":
     app.run(port=3945, host="0.0.0.0")
